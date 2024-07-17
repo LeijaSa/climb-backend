@@ -1,0 +1,2 @@
+class LocationNotFoundException(Exception):
+    pass

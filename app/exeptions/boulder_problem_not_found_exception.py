@@ -1,0 +1,2 @@
+class BoulderProblemNotFoundException(Exception):
+    pass

@@ -1,0 +1,2 @@
+class LocationCreationFailureException(Exception):
+    pass

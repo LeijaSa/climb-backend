@@ -1,0 +1,2 @@
+class BoulderProblemUpdateFailureException(Exception):
+    pass

@@ -1,0 +1,2 @@
+class LocationUpdateFailureException(Exception):
+    pass

@@ -1,0 +1,2 @@
+class RequestDataNotFoundException(Exception):
+    pass
