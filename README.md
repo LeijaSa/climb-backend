@@ -5,7 +5,7 @@
 
 #### Clone the repository
 
-### Change the usernames and passwords for your postgres database
+#### Change the usernames and passwords for your postgres database
 
 #### Build and start the containers: docker-compose up --build.
 This command will build the necessary images and start the containers in the background.
