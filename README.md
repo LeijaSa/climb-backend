@@ -1,19 +1,20 @@
 
-### This repository contains a Docker Compose setup for running a backend for Climbing App using Flask and PostgreSQL
+### Climbing App Backend - Practice Project  
 
-### Set up:
+This repository serves as a **practice project** to explore and gain hands-on experience with **Docker**, **Flask**, and **SQLAlchemy**. The setup includes a Docker Compose configuration for running a backend application with Flask and PostgreSQL. While created as a learning exercise, this backend could be adapted to serve as the foundation for a **Climbing App**.  
 
-#### Clone the repository
+#### Features  
 
-#### Change the usernames and passwords for your postgres database
+- RESTful API endpoints to manage boulder problems.  
+- A PostgreSQL database initialized with tables for climbing data.  
+- Dockerized environment for seamless setup and scalability.  
 
-#### Build and start the containers: docker-compose up --build.
-This command will build the necessary images and start the containers in the background.
+#### Setup  
 
-Access the backend application: Open your browser and go to http://localhost:5000 to access the Flask web application.
-The database is initialized with two tables and their respective columns.
+1. **Clone the repository.**  
+2. **Customize database credentials:**  
+   Update the PostgreSQL username and password in the configuration files as needed.  
+3. **Build and start the containers:**  
+   ```bash
+   docker-compose up --build
 
-### Notes:
-
-Ensure Docker is installed on your system.
-This command will initiate the shutdown process, stopping and removing all containers, networks, and volumes created by docker-compose up: docker-compose down
